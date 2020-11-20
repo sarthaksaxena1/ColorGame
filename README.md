@@ -1,2 +1,4 @@
 # ColorGame
-Color Game project built to learn JavaScript
+Color Game Project is a begineer friendly Javascript Project for the better understanding of the javascript Language.
+
+# By Sarthak Saxena
