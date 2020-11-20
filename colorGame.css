@@ -1,0 +1,116 @@
+body { /*main body */
+background-color:#232323;
+font-family: "Montserrat","Avenier";
+margin:0;
+}
+h1{
+	color:white;
+	text-align: center;
+	background-color: steelblue;
+	margin:0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding:20px 0;
+}
+.square{
+	width :30%;
+	background :purple;
+	padding-bottom: 30%;
+	float: left;
+	margin:1.66%;
+	border-radius: 15%;
+	transition:background 0.7s;
+	-webkit-transition:background 0.7s;
+	-moz-transition:background 0.7s;
+}
+#container{ /*container layout */
+	margin:20px auto;
+	max-width: 600px;
+}
+#colorDisplay{
+	text-transform: uppercase;
+}
+#stripe{
+color:black;
+height: 30px;
+background-color: white;
+text-align: center;
+}
+.selected{
+background-color: steelblue;
+color:white;
+
+}
+#message{
+	width:20%;
+	display: inline-block;
+}
+#colorDisplay{
+	font-size: 200%;
+}
+button{ /* button labels */
+	border:none;
+	background:none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: inherit;
+	height: 100%;
+	color:steelblue;
+	font-weight: 700;
+	transition: all 0.5s;
+	-webkit-transition:background 0.5s;
+	-moz-transition:background 0.5s;
+	outline:none;
+}
+button:hover{
+	background:steelblue;
+	color:white;
+}
+.newbackground{
+	background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#rulesmenu{
+	width :30%;
+	float: center;
+	margin:0 auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	border-radius: 25%;
+	transition:all 0.7s;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;  /* FALLBACK FOR OLD BROWSERS */
+background: rgba(253, 255 , 253 ,0.1);
+}
+#rulesh{
+text-align: center;
+color:white;
+font-weight: bold;
+	transition:all 0.7s;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;  /* FALLBACK FOR OLD BROWSERS */
+}
+#rulesh:first-letter{
+	color:white;
+	font-size: 100px;
+	font-family: "Montserrat","Avenier";
+	transition:all 0.7s;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;  /* FALLBACK FOR OLD BROWSERS */
+}
+.rg{
+	font-size:23px;
+	text-align: center;
+	color: #616C6F;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition:all 0.7s;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;  /* FALLBACK FOR OLD BROWSERS */
+	/* Best Color game created so far */
+}
