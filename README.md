@@ -1,4 +1,4 @@
 # ColorGame
-Color Game Project is a begineer friendly Javascript Project for the better understanding of the javascript Language.
-
+Color game project is a beginner-friendly javascript project for a better understanding of the javascript language.
+_________________________________________________________________________________________________________
 By - Sarthak Saxena
